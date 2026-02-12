@@ -1,0 +1,76 @@
+Title	URL	Assignees	Status	Labels
+SetLockableReadonly performance with no lockable files	https://github.com/git-lfs/git-lfs/issues/5453			enhancement
+Git for Windows installer option to use OpenSSH breaks git-lfs	https://github.com/git-lfs/git-lfs/issues/5746		Bugs	bug, windows
+Git LFS behind a proxy	https://github.com/git-lfs/git-lfs/issues/5730		Bugs	bug
+Git LFS pointers permit extension entries before the `version` header line	https://github.com/git-lfs/git-lfs/issues/5702		Bugs	bug
+Git push in Cygwin gets stuck uploading LFS objects at 0% and then times out	https://github.com/git-lfs/git-lfs/issues/5870		Bugs	bug, windows
+Lockable files' write permissions and lock state not managed correctly in all cases	https://github.com/git-lfs/git-lfs/issues/5891		Bugs	bug
+inconsistent case handling of .gitattributes in migrate sub-commands	https://github.com/git-lfs/git-lfs/issues/4445		Bugs	bug
+large files that cross below the size given to 'git lfs migrate import --above' are not replaced with pointer files, but .gitattributes is left as tracking them in lfs, causing "should have been a pointer but was not" warnings	https://github.com/git-lfs/git-lfs/issues/5894		Bugs	bug, migration
+Git LFS assumes unrecognized SSH clients are compatible with OpenSSH options	https://github.com/git-lfs/git-lfs/issues/5903		Bugs	bug
+Many shell tests do not escape regular expression meta-characters properly	https://github.com/git-lfs/git-lfs/issues/5915		Bugs	bug, tests
+Markup remains in the help text	https://github.com/git-lfs/git-lfs/issues/5937		Bugs	bug, docs, help-wanted
+The negation of lockable (!lockable) in .gitattributes is not taken into account by the post-commit hook	https://github.com/git-lfs/git-lfs/issues/4246		Bugs	bug
+`git lfs ls-files` reports may incorrectly report objects as present or absent	https://github.com/git-lfs/git-lfs/issues/5979		Bugs	bug
+git lfs pull not working correctly with partial checkout in 3.6.1	https://github.com/git-lfs/git-lfs/issues/6004		Bugs	bug
+The reported lfs.url is not completely honoured when lfs fetch fails	https://github.com/git-lfs/git-lfs/issues/5354		Bugs	bug
+Encountered 433 files that should have been pointers, but weren't; --fixup does nothing	https://github.com/git-lfs/git-lfs/issues/5162		Bugs	bug, migration
+git lfs migrate import cannot --include files with comma	https://github.com/git-lfs/git-lfs/issues/5336		Bugs	bug
+Help triaging git-lfs checkout failure	https://github.com/git-lfs/git-lfs/issues/4974		Bugs	bug
+Fix leaking directories	https://github.com/git-lfs/git-lfs/pull/6039		Bugs	bug
+Running into what appears to be a fairly common issue with git-lfs failing to authenticate during push (verify locks)	https://github.com/git-lfs/git-lfs/issues/5001		Bugs	bug
+Inconsistent git config parsing	https://github.com/git-lfs/git-lfs/issues/6112		Bugs	bug, git-config
+could not get connection for batch request: pure SSH connection unavailable	https://github.com/git-lfs/git-lfs/issues/6118		Bugs	bug, ssh
+Error "panic: unclosed character class" on checkout	https://github.com/git-lfs/git-lfs/issues/6120		Bugs	attributes, bug
+Git lfs crashes (null-dereference) when fetching with ssh (macos)	https://github.com/git-lfs/git-lfs/issues/6144		Bugs	bug, ssh
+Unlock --json reporting of non-existant file	https://github.com/git-lfs/git-lfs/issues/6167		Bugs	bug, locking
+ExtraHeadersFor duplicates http.extraHeader on auth retry, causing infinite 401 loop	https://github.com/git-lfs/git-lfs/issues/6202		Bugs	bug
+3 to 5 prompts for ssh hardware key authorization	https://github.com/git-lfs/git-lfs/issues/5784		Enhancements	auth, enhancement, patches-welcome
+Standalone file adapter lacks Windows UNC path support	https://github.com/git-lfs/git-lfs/issues/5703		Enhancements	enhancement, windows
+Revisit use of Go's standard library to locate Git executable	https://github.com/git-lfs/git-lfs/issues/5612		Enhancements	enhancement, good first issue, windows
+Bundle support for air-gap sync	https://github.com/git-lfs/git-lfs/issues/5645		Enhancements	enhancement
+URL substitution via insteadOf broken when NewEndpointFromCloneURL is used	https://github.com/git-lfs/git-lfs/issues/5528		Enhancements	enhancement
+Apply `insteadOf` rewriting rules to Git LFS object URLs by default and without converting to API endpoints	https://github.com/git-lfs/git-lfs/issues/5547		Enhancements	bug, enhancement
+"git lfs prune" is slow on large repositories	https://github.com/git-lfs/git-lfs/issues/5896		Enhancements	enhancement
+Confusing behavior of git lfs status --porcelain	https://github.com/git-lfs/git-lfs/issues/3215		Enhancements	enhancement
+0 byte files reported as "LFS" by "git lfs status"	https://github.com/git-lfs/git-lfs/issues/5124		Enhancements	enhancement
+Speed-up pushing to a fork by fetching remote heads with `git ls-remote`	https://github.com/git-lfs/git-lfs/issues/5505		Enhancements	enhancement
+Automatically Prevent Problems When Running git-lfs-track	https://github.com/git-lfs/git-lfs/issues/5945		Enhancements	enhancement, mcve-required
+Mismatch between `git lfs fetch --all` and `git lfs push --all`	https://github.com/git-lfs/git-lfs/issues/4899		Enhancements	enhancement
+Git LFS diffs do not show conflict markers making `git diff --check` return the wrong status	https://github.com/git-lfs/git-lfs/issues/5990		Enhancements	enhancement
+Pruning automatically	https://github.com/git-lfs/git-lfs/issues/3635		Enhancements	enhancement, help-wanted
+Disable local LFS cache?	https://github.com/git-lfs/git-lfs/issues/2147		Enhancements	enhancement, help-wanted
+Don't crawl history with git lfs push --all	https://github.com/git-lfs/git-lfs/issues/4350		Enhancements	enhancement
+Object database should transitively include alternate directories	https://github.com/git-lfs/gitobj/issues/38		Enhancements	enhancement, help-wanted
+Fetch fails to download files after initial failure	https://github.com/git-lfs/git-lfs/issues/6056		Enhancements	enhancement, help-wanted
+git lfs pull seems to not respect 429 retry-after headers	https://github.com/git-lfs/git-lfs/issues/6106		Enhancements	enhancement, help-wanted
+Disallow `git lfs checkout` command in bare repositories	https://github.com/git-lfs/git-lfs/issues/6131		Enhancements	enhancement
+Plan support for SHA-256/SHA-1 interoperability	https://github.com/git-lfs/git-lfs/issues/6190		Enhancements	git-core
+Make hostname reverse lookup optional for Kerberos authentication	https://github.com/git-lfs/git-lfs/issues/5846		Optional Enhancements	enhancement, help-wanted
+Add ability to bypass .lfsconfig in git-lfs-filter-process, git-lfs-filter-clean and git-lfs-filter-smudge	https://github.com/git-lfs/git-lfs/issues/5825		Optional Enhancements	enhancement, patches-welcome
+git lfs ls-files --all -ls should print out exact size	https://github.com/git-lfs/git-lfs/issues/5823		Optional Enhancements	enhancement, patches-welcome
+Git LFS pull should provide a bit more information on what's being pulled	https://github.com/git-lfs/git-lfs/issues/5819		Optional Enhancements	enhancement, patches-welcome
+Git LFS still pulls with no .gitattributes file causing confusion	https://github.com/git-lfs/git-lfs/issues/5809		Optional Enhancements	enhancement, patches-welcome
+Understanding Git LFS's Insistence on At Least One Retry Despite Configuring Retries to 0	https://github.com/git-lfs/git-lfs/issues/5753		Optional Enhancements	enhancement
+git lfs status both --porcelain and --json flags produce output unusable for programs compared to regular git lfs status	https://github.com/git-lfs/git-lfs/issues/5553		Optional Enhancements	enhancement
+git lfs fetch all history of single file	https://github.com/git-lfs/git-lfs/issues/5499		Optional Enhancements	enhancement
+Feature request: locks per clone	https://github.com/git-lfs/git-lfs/issues/5562		Optional Enhancements	enhancement
+`git lfs fsck` `could not be checked: no such file or directory`	https://github.com/git-lfs/git-lfs/issues/5867		Optional Enhancements	enhancement, patches-welcome
+Set User-Agent from .gitconfig	https://github.com/git-lfs/git-lfs/issues/5878		Optional Enhancements	enhancement, patches-welcome
+Add command to undo fetch and checkout	https://github.com/git-lfs/git-lfs/issues/1189		Optional Enhancements	enhancement, patches-welcome
+git lfs unlock is slow on large repositories	https://github.com/git-lfs/git-lfs/issues/5510		Optional Enhancements	enhancement
+No verbose mode for git-lfs pull command	https://github.com/git-lfs/git-lfs/issues/1977		Optional Enhancements	enhancement, patches-welcome
+Feature request: Allow defining pointers to existing HTTP files	https://github.com/git-lfs/git-lfs/issues/4193		Optional Enhancements	enhancement, proposal
+`git count-objects -vH` for git lfs?	https://github.com/git-lfs/git-lfs/issues/3405		Optional Enhancements	enhancement
+Add `fetch --filename`	https://github.com/git-lfs/git-lfs/issues/5946		Optional Enhancements	enhancement, help-wanted
+Add option to migrate import to add old SHA to the new commit message text	https://github.com/git-lfs/git-lfs/issues/5947		Optional Enhancements	enhancement, help-wanted, patches-welcome
+Feature Request: Add support to git lfs migrate export for removing pointers to missing files.	https://github.com/git-lfs/git-lfs/issues/5962		Optional Enhancements	enhancement, patches-welcome
+git lfs prune doesn't cleanup folders in .git\lfs\objects if they become empty.	https://github.com/git-lfs/git-lfs/issues/5978		Optional Enhancements	enhancement, help-wanted
+`git lfs pull` recreates deleted files	https://github.com/git-lfs/git-lfs/issues/6003		Optional Enhancements	enhancement, patches-welcome
+git lfs dedup says working tree is dirty, but only with untracked files, it should still run	https://github.com/git-lfs/git-lfs/issues/6066		Optional Enhancements	enhancement, patches-welcome
+EndpointFinder does not detect <transport>://<address> format	https://github.com/git-lfs/git-lfs/issues/6094		Optional Enhancements	enhancement
+Allow git lfs migrate import to edit commits other than the initial one without explicitly listing refs	https://github.com/git-lfs/git-lfs/issues/5080		Optional Enhancements	enhancement, help-wanted, migration
+Please add --no-rewrite to git lfs migrate export	https://github.com/git-lfs/git-lfs/issues/6110		Optional Enhancements	enhancement, migration
+Evaluate extensions to `git filter-process` to improve performance	https://github.com/git-lfs/git-lfs/issues/5578		Ideas	enhancement, git-core
+Remove `git lfs clone` command	https://github.com/git-lfs/git-lfs/issues/5544		Ideas	
+Run limited release CI job on release PR	https://github.com/git-lfs/git-lfs/issues/4867		Ideas	proposal

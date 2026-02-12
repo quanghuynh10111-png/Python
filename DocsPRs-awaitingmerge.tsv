@@ -1,0 +1,18 @@
+Title	URL	Labels
+Delete mention `encoding` for `importlib.resources.path`	https://github.com/python/cpython/pull/143111	awaiting merge, docs, needs backport to 3.13, needs backport to 3.14, skip issue, skip news, topic-importlib
+Document how to add a bytecode specialization in Interpreter.md file	https://github.com/python/cpython/pull/130831	awaiting merge, docs, skip issue, skip news
+[3.13] gh-101100: Resolve reference warnings in reference/ (GH-138418)	https://github.com/python/cpython/pull/138681	awaiting merge, docs, skip news
+[3.13] gh-135944: Add a "Runtime Components" Section to the Execution Model Docs (gh-135945)	https://github.com/python/cpython/pull/139510	awaiting merge, docs, skip news
+gh-101100: Fix sphinx reference warnings around I/O	https://github.com/python/cpython/pull/139592	awaiting merge, docs, skip news
+gh-106318: Add examples for str.rjust() method	https://github.com/python/cpython/pull/143890	awaiting merge, docs, skip news
+gh-106318: Improve str.rstrip() method doc	https://github.com/python/cpython/pull/143893	awaiting merge, docs, skip news
+gh-110631: Fix wrong reST markup and list numbers.	https://github.com/python/cpython/pull/110885	awaiting merge, docs, needs backport to 3.13, needs backport to 3.14, skip news
+gh-136672: Docs: Move parts of Enum HOWTO to API Docs	https://github.com/python/cpython/pull/139176	awaiting merge, docs, needs backport to 3.13, needs backport to 3.14, skip news
+gh-137337: Clarify import statement namespace binding	https://github.com/python/cpython/pull/144607	awaiting merge, docs, skip news
+gh-137758: Clarify os.stat_result time fields (since Unix epoch) and add datetime conversion note	https://github.com/python/cpython/pull/137761	awaiting merge, docs, skip news
+gh-139478: Add warning about lack of validation for `xml.sax.saxutils.XMLGenerator`	https://github.com/python/cpython/pull/139479	awaiting merge, docs
+gh-140505: Correct "parameters" to "arguments" in MultiCall doc	https://github.com/python/cpython/pull/140512	awaiting merge, docs, needs backport to 3.13, needs backport to 3.14, skip news
+gh-142533: Document CRLF injection vulnerability in http.server and wsgiref modules	https://github.com/python/cpython/pull/143395	awaiting merge, docs, skip news
+gh-144386: Update equivalent code for "with", "async with" and "async for"	https://github.com/python/cpython/pull/144472	awaiting merge, docs, needs backport to 3.13, needs backport to 3.14, skip news
+gh-57095: Add note about input splitting in `datetime.*.strptime`	https://github.com/python/cpython/pull/131049	awaiting merge, docs, skip news
+gh-91279: Note ``SOURCE_DATE_EPOCH`` support in ``ZipFile.writestr()``	https://github.com/python/cpython/pull/139396	awaiting merge, docs, skip news
